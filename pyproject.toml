@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "miniloop"
+version = "0.1.0"
+description = "A tiny provider-agnostic tool-calling agent loop (stdlib only)"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "DP Pavan" }]
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
